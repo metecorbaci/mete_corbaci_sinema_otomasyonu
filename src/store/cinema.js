@@ -18,14 +18,14 @@ export const userSlice = createSlice({
         return tmp;
       });
 
-      const newPurchase = {
+      const yeniBiletAl = {
         user: action.payload.userDetails,
         satinAlinanKoltuklar: satinAlinanKoltuklar,
         film: film,
       };
 
       
-      state.SatilanBiletComp.push(newPurchase);
+      state.SatilanBiletComp.push(yeniBiletAl);
 
       let newKoltuklar = film.koltuklar.map((item) => {
         

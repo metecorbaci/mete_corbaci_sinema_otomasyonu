@@ -1,6 +1,6 @@
 import React from "react";
 import "./SatilanBilet.css";
-const PurchasedItem = (props) => {
+const SatilanBilet = (props) => {
   const { user, film, satinAlinanKoltuklar } = props.data;
   var options = {
     year: "numeric",
@@ -35,4 +35,4 @@ const PurchasedItem = (props) => {
   );
 };
 
-export default PurchasedItem;
+export default SatilanBilet;

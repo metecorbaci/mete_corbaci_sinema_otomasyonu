@@ -5,6 +5,7 @@ const Koltuk = (props) => {
 
   //Koltukların boş/dolu/seçili olma durumlarına göre renkklendirme yapıyoruz
   //Ve Koltukları numaralandırıyoruz
+  //Koltuk dolu ise kırmızı, koltuk seçili ise yeşil , boş ise beyaz setleniyor
   return (
     <div
       style={{

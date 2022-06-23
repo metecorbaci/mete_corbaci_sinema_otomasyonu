@@ -15,8 +15,8 @@ const Anasayfa = () => {
   return (
     <div className="AnaEkran">
       
-      <div className="admin-btn-div">
-        <button className="admin-btn" onClick={() => navigate("/admin")}> 
+      <div>
+        <button onClick={() => navigate("/admin")}> 
           Admin Panel                                                     
         </button>                            
       </div>
