@@ -7,7 +7,7 @@ import { click } from "../../store/cinema";
 import { useNavigate } from "react-router-dom";
 import "./KoltukSecmeEkrani.css";
 
-const BiletEkrani = () => {
+const KoltukSecmeEkrani = () => {
   let params = useParams(); 
   let navigate = useNavigate();
   let dispatch = useDispatch(); 
@@ -60,4 +60,4 @@ const BiletEkrani = () => {
   );
 };
 
-export default BiletEkrani;
+export default KoltukSecmeEkrani;

@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import SatilanBilet from "./SatilanBilet";
 import { salonlar } from "../../data/SalonVerileri";
 import "./SatilanBilet.css";
-export const Purchased = () => {
+export const SatilanBiletComp = () => {
   const satinAlinanlar = useSelector((state) => state.cinema.purchased);
 
   const [selectedSalon, setSelectedSalon] = useState(1);

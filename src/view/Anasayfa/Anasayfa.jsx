@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import FilmListItem from "../../components/FilmKarti/FilmListItem";
+import FilmListItem from "../../components/FilmKarti/FilmKarti";
 import { salonlar } from "../../data/SalonVerileri";
 import "./Anasayfa.css";
 
@@ -16,9 +16,9 @@ const Anasayfa = () => {
     <div className="AnaEkran">
       
       <div className="admin-btn-div">
-        <button className="admin-btn" onClick={() => navigate("/admin")}>
-          Admin Panel
-        </button>
+        <button className="admin-btn" onClick={() => navigate("/admin")}> 
+          Admin Panel                                                     
+        </button>                            
       </div>
 
       <select 
@@ -34,7 +34,7 @@ const Anasayfa = () => {
       {
         cinemaList.filter((x) => x.salon === selectedSalon)
         ?.map((cinema ) => { 
-            return <FilmListItem key={cinema.id} cinema={cinema} />; //Select seçile
+            return <FilmListItem key={cinema.id} cinema={cinema} />; //Select ile seçilen seanslara uygun film verilerini döndürür
           })}
       
     </div>

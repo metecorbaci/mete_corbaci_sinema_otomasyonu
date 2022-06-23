@@ -3,7 +3,7 @@ import { cinemaData } from "../data/FilmVerileri";
 
 export const userSlice = createSlice({
   name: "cinema",
-  initialState: { cinemaData: cinemaData, purchased: [] },
+  initialState: { cinemaData: cinemaData, SatilanBiletComp: [] },
   reducers: {
     satinAl: (state, action) => {
       let filmId = action.payload.filmId;
@@ -25,7 +25,7 @@ export const userSlice = createSlice({
       };
 
       
-      state.purchased.push(newPurchase);
+      state.SatilanBiletComp.push(newPurchase);
 
       let newKoltuklar = film.koltuklar.map((item) => {
         

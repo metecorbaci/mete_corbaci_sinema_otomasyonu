@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Purchased } from "../../components/AdminPanelSatilanBilet/SatilanBiletComp";
+import { SatilanBiletComp } from "../../components/AdminPanelSatilanBilet/SatilanBiletComp";
 import "./AdminPanel.css";
-const Admin = () => {
+const AdminPanel = () => {
   let navigate = useNavigate();
 
   return (
@@ -11,9 +11,9 @@ const Admin = () => {
         <button className="anaekran-button" onClick={() => navigate("/")}>
         </button>
       </div>
-      <Purchased />
+      <SatilanBiletComp />
     </div>
   );
 };
 
-export default Admin;
+export default AdminPanel;

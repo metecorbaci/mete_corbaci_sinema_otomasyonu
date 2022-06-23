@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./FilmListItem.css";
-const FilmListItem = (props) => {
+import "./FilmKarti.css";
+const FilmKarti = (props) => {
   //Tarih alanının option yıl,ay,gün
   var dateOptions = {
     year: "numeric",
@@ -44,4 +44,4 @@ const FilmListItem = (props) => {
   );
 };
 
-export default FilmListItem;
+export default FilmKarti;
