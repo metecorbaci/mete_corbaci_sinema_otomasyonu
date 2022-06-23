@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import Koltuk from "../../components/Koltuk/Koltuk";
-import { SatinAlma } from "../../components/SatinAlma/SatinAlma";
+import { SatinAlma } from "../../components/SatinAlmaPanel/SatinAlma";
 import { click } from "../../store/cinema";
 import { useNavigate } from "react-router-dom";
 import "./BiletEkrani.css";
