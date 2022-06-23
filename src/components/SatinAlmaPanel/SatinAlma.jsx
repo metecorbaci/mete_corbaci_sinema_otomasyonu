@@ -43,14 +43,14 @@ export const SatinAlma = (props) => {
       <input
         className="inputBox"
         type="text"
-        placeholder="isim"
+        placeholder="ad"
         value={ad}
         onChange={(e) => setAd(e.target.value)}
       />
       <input
         className="inputBox"
         type="text"
-        placeholder="soyisim"
+        placeholder="soyad"
         value={soyad}
         onChange={(e) => setSoyad(e.target.value)}
       />
@@ -65,13 +65,13 @@ export const SatinAlma = (props) => {
       <input
         className="inputBox"
         type="integer"
-        placeholder="Kredi Karti"
+        placeholder="Kredi Kartı"
         value={kredikart}
         onChange={(e) => setKredikart(e.target.value)}
       />
 
-      <button className="butonAl" onClick={() => satinAlClick()}>
-        Satin Al
+      <button className="satin-al-btn" onClick={() => satinAlClick()}>
+        SATIN AL
       </button>
     </div>
   );

@@ -5,7 +5,7 @@ import Koltuk from "../../components/Koltuk/Koltuk";
 import { SatinAlma } from "../../components/SatinAlmaPanel/SatinAlma";
 import { click } from "../../store/cinema";
 import { useNavigate } from "react-router-dom";
-import "./BiletEkrani.css";
+import "./KoltukSecmeEkrani.css";
 
 const BiletEkrani = () => {
   let params = useParams(); 
