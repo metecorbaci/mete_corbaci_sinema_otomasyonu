@@ -2,7 +2,7 @@ import "./App.css";
 import Anasayfa from "./view/Anasayfa/Anasayfa";
 import KoltukSecmeEkrani from "./view/KoltukSecmeEkrani/KoltukSecmeEkrani";
 import { Route, Routes } from "react-router-dom";
-import AdminPanel from "./view/AdminPanel/Admin";
+import AdminPanel from "./view/AdminPanel/AdminPanel";
 
 function App() {
   return (

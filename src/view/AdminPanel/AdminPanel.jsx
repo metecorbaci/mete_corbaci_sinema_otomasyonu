@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Purchased } from "../../components/AdminPanelSatilanBilet/Purchased";
-import "./Admin.css";
+import { Purchased } from "../../components/AdminPanelSatilanBilet/SatilanBiletComp";
+import "./AdminPanel.css";
 const Admin = () => {
   let navigate = useNavigate();
 
