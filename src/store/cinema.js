@@ -5,34 +5,39 @@ export const userSlice = createSlice({
   name: "cinema",
   initialState: { cinemaData: cinemaData, purchased: [] },
   reducers: {
+    //SatinAl reducerimiz
     satinAl: (state, action) => {
+      //Film idsini cekiyoruz
       let filmId = action.payload.filmId;
+      //CinemaDatada çektiğimiz filmidsine göre film verilerini çekiyoruz
       let film = state.cinemaData.find((x) => x.id === filmId);
+      //Satın alınan koltuklar çekilir.
       let satinAlinanKoltuklar = [...action.payload.koltuklar];
-
+      //SAtın alınan koltuklar maplenerek dolulugu veya boşluğu guncellenir.
       let tmpKoltuklar = satinAlinanKoltuklar.map((element) => {
-       
         let tmp = { ...element }; 
         tmp.dolu = 0; 
         tmp.bos = 0; 
         return tmp;
       });
-
+      // Film verilerini güncelliyoruz
       const yeniBiletAl = {
-        user: action.payload.userDetails,
+        user: action.payload.kullaniciBilgileri,
         satinAlinanKoltuklar: satinAlinanKoltuklar,
         film: film,
       };
 
-      
+      // YeniBiletAlda attıgımız verileri purchased'e push ediyoruz
+      // Purchased admin panelde satın alınan biletlerdir      
       state.purchased.push(yeniBiletAl);
 
+      // Koltukları güncelliyoruz
       let newKoltuklar = film.koltuklar.map((item) => {
-        
         let item2 = tmpKoltuklar.find((i2) => i2.id === item.id); 
         return item2 ? { ...item, ...item2 } : item; 
       });
 
+      //Güncel halini koltuklara atıyoruz
       film.koltuklar = newKoltuklar; 
 
       let guncellenmisFilmler = state.cinemaData.map((x) => {
@@ -49,9 +54,6 @@ export const userSlice = createSlice({
 
     click: (state, action) => {
       
-    
-      
-
       let filmId = action.payload.filmId; 
       let film = state.cinemaData.find((x) => x.id === filmId); 
       let koltuk = { ...action.payload.koltuk }; 

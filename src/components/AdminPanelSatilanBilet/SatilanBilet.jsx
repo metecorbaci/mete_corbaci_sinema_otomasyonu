@@ -22,7 +22,6 @@ const SatilanBilet = (props) => {
           {user.name} {user.surname}
         </h2>
         <h2>
-          {user.btc}
           {user.eposta}
         </h2>
       </div>
