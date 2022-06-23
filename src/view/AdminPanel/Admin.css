@@ -1,0 +1,18 @@
+.admin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.anaekran-button{
+  margin-top: 15px;
+  width: 80px;
+  background-color: transparent;
+  border-color: transparent;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/anaekran_button.png");
+}

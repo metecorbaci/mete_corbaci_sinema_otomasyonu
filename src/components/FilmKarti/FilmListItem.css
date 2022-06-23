@@ -1,0 +1,19 @@
+.film-karti-item {
+  background-color: rgb(129, 22, 22);
+  border-radius: 20px;
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  border: 12px solid;
+}
+
+.film-karti-item-row {
+  display: flex;
+  color: aliceblue;
+  flex-direction: row;
+  justify-content: space-between;
+  width:750px;
+}

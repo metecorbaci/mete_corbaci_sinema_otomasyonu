@@ -1,0 +1,156 @@
+export const cinemaData = [
+  {
+    id: 1,
+    salon: 1,
+    filmAdi: "Scary Movie",
+    fiyat: 25,
+    seansSaati: "15:00",
+    tarih: new Date(),
+    image: 
+        "./images/scarymovie.jpg",
+    koltuklar: [
+      { id: 1, bos: 1, dolu: 0 },{ id: 2, bos: 1, dolu: 0 },{ id: 3, bos: 1, dolu: 0 },
+      { id: 4, bos: 1, dolu: 0 },{ id: 5, bos: 1, dolu: 0 },{ id: 6, bos: 1, dolu: 0 },
+      { id: 7, bos: 1, dolu: 0 },{ id: 8, bos: 1, dolu: 0 },{ id: 9, bos: 1, dolu: 0 },
+      { id: 10, bos: 1, dolu: 0 },{ id: 11, bos: 1, dolu: 0 },{ id: 12, bos: 1, dolu: 0 },
+      { id: 13, bos: 1, dolu: 0 },{ id: 14, bos: 1, dolu: 0 },{ id: 15, bos: 1, dolu: 0 },
+    ],
+  },
+  {
+    id: 1,
+    salon: 2,
+    filmAdi: "Scary Movie",
+    fiyat: 25,
+    tarih: new Date(),
+    seansSaati: "15:00",
+    image:
+        "./images/scarymovie.jpg",
+    koltuklar: [
+      { id: 1, bos: 1, dolu: 0 },{ id: 2, bos: 1, dolu: 0 },{ id: 3, bos: 1, dolu: 0 },
+      { id: 4, bos: 1, dolu: 0 },{ id: 5, bos: 1, dolu: 0 },{ id: 6, bos: 1, dolu: 0 },
+      { id: 7, bos: 1, dolu: 0 },{ id: 8, bos: 1, dolu: 0 },{ id: 9, bos: 1, dolu: 0 },
+      { id: 10, bos: 1, dolu: 0 },{ id: 11, bos: 1, dolu: 0 },{ id: 12, bos: 1, dolu: 0 },
+      { id: 13, bos: 1, dolu: 0 },{ id: 14, bos: 1, dolu: 0 },{ id: 15, bos: 1, dolu: 0 },
+    ],
+  },
+  {
+    id: 2,
+    salon: 2,
+    filmAdi: "The Hobbit",
+    fiyat: 25,
+    tarih: new Date(),
+    seansSaati: "11:00",
+    image:
+        "./images/hobbit.jpg",
+    koltuklar: [
+      { id: 1, bos: 1, dolu: 0 },{ id: 2, bos: 1, dolu: 0 },{ id: 3, bos: 1, dolu: 0 },
+      { id: 4, bos: 1, dolu: 0 },{ id: 5, bos: 1, dolu: 0 },{ id: 6, bos: 1, dolu: 0 },
+      { id: 7, bos: 1, dolu: 0 },{ id: 8, bos: 1, dolu: 0 },{ id: 9, bos: 1, dolu: 0 },
+      { id: 10, bos: 1, dolu: 0 },{ id: 11, bos: 1, dolu: 0 },{ id: 12, bos: 1, dolu: 0 },
+      { id: 13, bos: 1, dolu: 0 },{ id: 14, bos: 1, dolu: 0 },{ id: 15, bos: 1, dolu: 0 },
+    ],
+  },
+  {
+    id: 3,
+    salon: 3,
+    filmAdi: "The Hobbit",
+    fiyat: 25,
+    tarih: new Date(),
+    seansSaati: "14:30",
+    image:
+        "./images/hobbit.jpg",
+    koltuklar: [
+      { id: 1, bos: 1, dolu: 0 },{ id: 2, bos: 1, dolu: 0 },{ id: 3, bos: 1, dolu: 0 },
+      { id: 4, bos: 1, dolu: 0 },{ id: 5, bos: 1, dolu: 0 },{ id: 6, bos: 1, dolu: 0 },
+      { id: 7, bos: 1, dolu: 0 },{ id: 8, bos: 1, dolu: 0 },{ id: 9, bos: 1, dolu: 0 },
+      { id: 10, bos: 1, dolu: 0 },{ id: 11, bos: 1, dolu: 0 },{ id: 12, bos: 1, dolu: 0 },
+      { id: 13, bos: 1, dolu: 0 },{ id: 14, bos: 1, dolu: 0 },{ id: 15, bos: 1, dolu: 0 },
+    ],
+  },
+  {
+    id: 4,
+    salon: 4,
+    filmAdi: "Hulk",
+    seansSaati: "12:30",
+    image:
+        "./images/hulk.jpg",
+    fiyat: 25,
+    tarih: new Date(),
+    koltuklar: [
+      { id: 1, bos: 1, dolu: 0 },{ id: 2, bos: 1, dolu: 0 },{ id: 3, bos: 1, dolu: 0 },
+      { id: 4, bos: 1, dolu: 0 },{ id: 5, bos: 1, dolu: 0 },{ id: 6, bos: 1, dolu: 0 },
+      { id: 7, bos: 1, dolu: 0 },{ id: 8, bos: 1, dolu: 0 },{ id: 9, bos: 1, dolu: 0 },
+      { id: 10, bos: 1, dolu: 0 },{ id: 11, bos: 1, dolu: 0 },{ id: 12, bos: 1, dolu: 0 },
+      { id: 13, bos: 1, dolu: 0 },{ id: 14, bos: 1, dolu: 0 },{ id: 15, bos: 1, dolu: 0 },
+    ],
+  },
+  {
+    id: 5,
+    salon: 3,
+    filmAdi: "This Is The End",
+    fiyat: 25,
+    tarih: new Date(),
+    seansSaati: "16:15",
+    image:
+        "./images/thisistheend.jpg",
+    koltuklar: [
+      { id: 1, bos: 1, dolu: 0 },{ id: 2, bos: 1, dolu: 0 },{ id: 3, bos: 1, dolu: 0 },
+      { id: 4, bos: 1, dolu: 0 },{ id: 5, bos: 1, dolu: 0 },{ id: 6, bos: 1, dolu: 0 },
+      { id: 7, bos: 1, dolu: 0 },{ id: 8, bos: 1, dolu: 0 },{ id: 9, bos: 1, dolu: 0 },
+      { id: 10, bos: 1, dolu: 0 },{ id: 11, bos: 1, dolu: 0 },{ id: 12, bos: 1, dolu: 0 },
+      { id: 13, bos: 1, dolu: 0 },{ id: 14, bos: 1, dolu: 0 },{ id: 15, bos: 1, dolu: 0 },
+    ],
+  },
+  {
+    id: 6,
+    salon: 4,
+    filmAdi: "Batman",
+    fiyat: 25,
+    tarih: new Date(),
+    seansSaati: "10:00",
+    image:
+        "./images/batman.jpg",
+    koltuklar: [
+      { id: 1, bos: 1, dolu: 0 },{ id: 2, bos: 1, dolu: 0 },{ id: 3, bos: 1, dolu: 0 },
+      { id: 4, bos: 1, dolu: 0 },{ id: 5, bos: 1, dolu: 0 },{ id: 6, bos: 1, dolu: 0 },
+      { id: 7, bos: 1, dolu: 0 },{ id: 8, bos: 1, dolu: 0 },{ id: 9, bos: 1, dolu: 0 },
+      { id: 10, bos: 1, dolu: 0 },{ id: 11, bos: 1, dolu: 0 },{ id: 12, bos: 1, dolu: 0 },
+      { id: 13, bos: 1, dolu: 0 },{ id: 14, bos: 1, dolu: 0 },{ id: 15, bos: 1, dolu: 0 },
+
+    ],
+  },
+  {
+    id: 7,
+    salon: 1,
+    filmAdi: "Superman",
+    fiyat: 25,
+    tarih: new Date(),
+    seansSaati: "11:30",
+    image:
+        "./images/superman.jpg",
+    koltuklar: [
+      { id: 1, bos: 1, dolu: 0 },{ id: 2, bos: 1, dolu: 0 },{ id: 3, bos: 1, dolu: 0 },
+      { id: 4, bos: 1, dolu: 0 },{ id: 5, bos: 1, dolu: 0 },{ id: 6, bos: 1, dolu: 0 },
+      { id: 7, bos: 1, dolu: 0 },{ id: 8, bos: 1, dolu: 0 },{ id: 9, bos: 1, dolu: 0 },
+      { id: 10, bos: 1, dolu: 0 },{ id: 11, bos: 1, dolu: 0 },{ id: 12, bos: 1, dolu: 0 },
+      { id: 13, bos: 1, dolu: 0 },{ id: 14, bos: 1, dolu: 0 },{ id: 15, bos: 1, dolu: 0 },
+    ],
+  },
+  {
+    id: 7,
+    salon: 3,
+    filmAdi: "Superman",
+    fiyat: 25,
+    tarih: new Date(),
+    seansSaati: "17:00",
+    image:
+        "./images/superman.jpg",
+    koltuklar: [
+      { id: 1, bos: 1, dolu: 0 },{ id: 2, bos: 1, dolu: 0 },{ id: 3, bos: 1, dolu: 0 },
+      { id: 4, bos: 1, dolu: 0 },{ id: 5, bos: 1, dolu: 0 },{ id: 6, bos: 1, dolu: 0 },
+      { id: 7, bos: 1, dolu: 0 },{ id: 8, bos: 1, dolu: 0 },{ id: 9, bos: 1, dolu: 0 },
+      { id: 10, bos: 1, dolu: 0 },{ id: 11, bos: 1, dolu: 0 },{ id: 12, bos: 1, dolu: 0 },
+      { id: 13, bos: 1, dolu: 0 },{ id: 14, bos: 1, dolu: 0 },{ id: 15, bos: 1, dolu: 0 },
+    ],
+  },
+];

@@ -1,0 +1,41 @@
+.bilet-koltuk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Baslik
+{
+  width: 350px ;
+  border-radius: 5px;
+  color:rgb(255, 255, 255);
+  background-color: rgb(185, 12, 12);
+
+}
+
+.anaekran-button{
+  margin-top: 15px;
+  margin-left: 25px;
+  width: 80px;
+  background-size: cover;
+  background-color: transparent;
+  border-color: transparent;
+  height: 80px;
+  align-items: center;
+  background-image: url("../../images/anaekran_button.png");
+}
+
+.Salon-gorunumu{
+  background-image: url("../../images/salon_background.png");
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 15px;
+  margin-bottom: 100px;
+  display: flex;
+  background-color: aliceblue;
+  width: 1200px ;
+  height: 550px;
+}
+
+

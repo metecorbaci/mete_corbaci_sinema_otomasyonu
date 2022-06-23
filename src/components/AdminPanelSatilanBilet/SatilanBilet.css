@@ -1,0 +1,18 @@
+.satin-al {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.satilan-bilet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgb(238, 11, 22);
+  border-radius: 20px;
+  padding: 20px;
+}
